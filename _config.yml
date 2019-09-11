@@ -1,7 +1,7 @@
 # Site settings 配置站点
 title: 'dylano chan'
 description: 'chan'
-keywords: 'your web keywords, another keywords'
+keywords: 'programmer, learner'
 url: 'https://chendengyao.github.io' # your host
 
 # nav 中文字符空格：&emsp;
@@ -17,7 +17,7 @@ author: true
 name: '尘等尧'
 NickName: 'dylano chan'
 webtitle: 'blog'
-bio: 'your awesome bio'
+bio: 'just nothing'
 about: true
 aboutyou: 'a learning programmer'
 portraits: '/assets/profile.jpeg' # your portraits image file path
