@@ -4,7 +4,7 @@ title: "使用Git连接Github Page仓库搭建Jekyll博客"
 author: "Dylano Chan"
 categories: Git
 tags: [Github]
-image: gp1.png
+image: gp.png
 ---
 
 
