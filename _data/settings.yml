@@ -7,9 +7,10 @@ disqus:
 google-ID: 'UA-112060364-1'
 
 menu:
-- {name: 'About', path: 'menu', url: 'about.html'}
-- {name: 'Writing', path: 'menu', url: 'writing.html'}
-- {name: 'Contact', path: 'menu', url: 'contact.html'}
+- {name: '时间线', path: 'menu', url: '时间线.html'}
+- {name: '测试', path: 'menu', url: '测试.html'}
+- {name: '关于本站', path: 'menu', url: '关于本站.html'}
+- {name: '关于我', path: 'menu', url: '关于我.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
