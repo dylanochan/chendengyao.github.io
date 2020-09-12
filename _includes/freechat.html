@@ -20,16 +20,16 @@
 <style type="text/css">
     @media (prefers-color-scheme: dark) {
         /* 夜间模式 */
-        body {
+        #app {
             background-color: black;
             color: white;
         }
-        body .item {
+        #app .item {
             border-top: 6px solid #888888;
             background-color: rgb(21, 32, 43);
             color: #ccc;
         }
-        body time {
+        #app time {
             color: #aaa;
         }
         h1 {
@@ -38,11 +38,11 @@
         aside {
             color: #ccc;
         }
-        body .load-btn {
+        #app .load-btn {
             background-color: #000;
             color: #ddd;
         }
-        body .load-btn:hover:active {
+        #app .load-btn:hover:active {
             background: #1DA1F2;
             color: #fff;
         }
@@ -52,7 +52,7 @@
         display: none;
     }
     
-    html {
+    #app {
         font-size: 20px;
     }
     
@@ -60,7 +60,7 @@
         white-space: pre-wrap;
     }
 
-    body,
+    #app,
     button {
         font-family: 'Noto Serif SC', serif;
     }
@@ -72,22 +72,12 @@
     }
     
     #app,
-    header,
-    footer {
+    header{
         box-sizing: border-box;
         width: 100%;
-        max-width: 500px;
+        /* max-width: 500px; */
         margin: 0 auto;
         padding: 0 20px;
-    }
-    
-    h1 {
-        font-weight: 900;
-    }
-    
-    footer {
-        font-size: 0.8rem;
-        clear: both;
     }
     
     .tip {
