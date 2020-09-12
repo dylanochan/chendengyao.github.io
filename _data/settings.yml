@@ -8,7 +8,7 @@ google-ID: 'UA-112060364-1'
 
 menu:
 - {name: '时间线', path: 'menu', url: '时间线.html'}
-- {name: '闲谈', path: 'menu', url: '闲谈.html'}
+- {name: '瞎扯淡', path: 'menu', url: '瞎扯淡.html'}
 - {name: '测试', path: 'menu', url: '测试.html'}
 - {name: '关于本站', path: 'menu', url: '关于本站.html'}
 
