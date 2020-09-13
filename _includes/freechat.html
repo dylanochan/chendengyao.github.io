@@ -84,7 +84,7 @@
         color: #999;
     }
     
-    .item {
+    .item1 {
         font-weight: 300;
         font-style: normal;
         line-height: 1.8rem;
@@ -145,8 +145,8 @@
             </p>
         </aside> -->
         <p class="tip">现在总共瞎扯了 {{contents.length}} 条</p>
-        <section class="item" v-for="item in contents" v-cloak>
-            <p v-html='item.attributes.content'></p>
+        <section class="item1" v-for="item in contents" v-cloak>
+            <p>{{item.attributes.content}}</p>
             <time v-bind:datetime="item.attributes.time">{{item.attributes.time}}</time>
         </section>
         <div class="load-ctn">
@@ -205,7 +205,7 @@
                 resC.forEach((i) => {
                     let dateTmp = new Date(i.createdAt);
                     i.attributes.time = `${dateTmp.getFullYear()}-${(dateTmp.getMonth() + 1) < 10 ? ('0' + (dateTmp.getMonth()+1)) : dateTmp.getMonth()+1}-${(dateTmp.getDate() + 1) < 10 ? ('0' + dateTmp.getDate()) : dateTmp.getDate()} ${(dateTmp.getHours() + 1) <= 10 ? ('0' + dateTmp.getHours()) : dateTmp.getHours()}:${(dateTmp.getMinutes() + 1) <= 10 ? ('0' + dateTmp.getMinutes()) : dateTmp.getMinutes()}`;
-                    i.attributes.content = "<pre>" + urlToLink(i.attributes.content) + "</pre>";
+                    i.attributes.content =  urlToLink(i.attributes.content);
                     app.contents.push(i);
                 })
             }
